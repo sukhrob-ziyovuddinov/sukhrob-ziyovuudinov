@@ -1,49 +1,92 @@
-# Crypto Investigator Toolkit 🚀
+# Crypto Investigator Toolkit
 
-### Project Overview:
-The **Crypto Investigator Toolkit** is designed to provide tools, methods, and analysis pipelines for tracking illicit cryptocurrency activity, ensuring compliance, and investigating financial crimes. This project is perfect for anyone working in **AML**, **CTF**, or **crypto regulations**.
+## Crypto Investigations | AML/CTF Intelligence | Blockchain Risk & Compliance Research
 
----
+Crypto Investigator Toolkit is a professional repository focused on **cryptocurrency investigations**, **AML/CTF intelligence**, **blockchain risk analysis**, and **compliance-oriented investigative workflows**.
 
-### 🛠 Tools Used:
-- **Python**: On-chain data analysis.
-- **Chainalysis API**: Wallet tracking and suspicious activity screening.
-- **Elliptic**: Identifying compliance risks.
-- **Jupyter Notebooks**: For in-depth investigations and visualization.
+The project is designed as a structured knowledge and research base for specialists working at the intersection of **financial crime prevention**, **digital asset risk**, and **practical compliance review**.
+
+It brings together analytical approaches, investigation logic, documentation methods, and research materials relevant to suspicious wallet analysis, sanctions exposure review, and crypto-related financial crime typologies.
 
 ---
 
-### 🌟 Key Features:
-1. **Suspicious Wallet Detector:**
-   - Detect wallets associated with blacklisted transactions.
-   - Visualize on-chain paths using Python scripts and external APIs.
+## Project Objectives
 
-2. **Sanctions Screening Tool:**
-   - Identify wallets flagged by international authorities (OFAC, FATF, etc.).
+This repository is intended to support:
 
-3. **Reporting Framework:**
-   - Create automated reports on traced funds and compliance summaries for AML filings.
+- cryptocurrency investigation workflows
+- suspicious wallet and transaction analysis
+- blockchain risk assessment
+- sanctions exposure review
+- AML/CTF case documentation
+- compliance research and internal analytical reporting
 
 ---
 
-### 🔥 How It Works:
-1. Clone the repository to get started:
-   ```bash
-   git clone https://github.com/<sukhrob_ziyovuddinov>/crypto-investigator-toolkit.git
-2. Analyze wallets with:
-   ```bash
-   python wallet_analyzer.py --wallet <WALLET_ADDRESS>
-3. Detect risky transactions with:
-   ```bash
-   python risk_screener.py --blockchain BTC --wallet <WALLET_ADDRESS>
+## Core Focus Areas
 
-🔗 Resources:
-• Research Enrichment Tools
-• Guides on FATF’s Guidelines and Sanctions Compliance
-     
-📫 Contact:
-• Email: sukhrobziyovuddinov@gmail.com
-• LinkedIn: (https://www.linkedin.com/in/sukhrob-ziyovuddinov)
+### 1. Wallet Investigation & Transaction Analysis
+This area focuses on reviewing wallet behavior, transaction flows, and potential exposure to high-risk entities or suspicious patterns.
+
+Key objectives:
+- analyze wallet activity and transaction history
+- identify behavioral red flags
+- review connections to high-risk counterparties
+- structure findings for investigative assessment
+
+### 2. AML/CTF Risk Review
+This section supports analytical review related to money laundering, terrorist financing exposure, and broader financial crime risk indicators in crypto environments.
+
+Key objectives:
+- document AML/CTF typologies
+- organize red flags and escalation logic
+- support compliance-oriented case assessment
+- improve risk-based analytical review
+
+### 3. Sanctions & Exposure Screening
+This area is designed to support structured review of possible sanctions-related exposure and other risk indicators linked to blockchain activity.
+
+Key objectives:
+- assess exposure to sanctioned or high-risk entities
+- review sanctions-related typologies
+- organize screening observations
+- support internal compliance decision-making
+
+### 4. Reporting & Documentation Frameworks
+A strong investigation process requires structured reporting. This part of the repository is intended to support practical documentation standards for internal review and professional case handling.
+
+Key objectives:
+- create investigation notes
+- structure case summaries
+- develop compliance-oriented reporting templates
+- support internal documentation consistency
+
+---
+
+## Tools & Methods
+
+This repository may include materials and workflows involving:
+
+- Python
+- Jupyter Notebooks
+- blockchain analytics methodologies
+- OSINT-based investigative research
+- risk-based compliance frameworks
+- reporting templates and analytical documentation
+
+---
+
+## Suggested Repository Structure
+
+```text
+crypto-investigator-toolkit/
+│
+├── notebooks/        # investigation and analysis notebooks
+├── scripts/          # Python scripts for analytical support
+├── templates/        # reporting and case documentation templates
+├── research/         # notes, typologies, and compliance materials
+├── reports/          # structured outputs and summaries
+└── README.md
 
    
    
