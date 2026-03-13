@@ -32,24 +32,17 @@ The **Crypto Investigator Toolkit** is designed to provide tools, methods, and a
    git clone https://github.com/<sukhrob_ziyovuddinov>/crypto-investigator-toolkit.git
 
 2. Analyze wallets with:
-
    python wallet_analyzer.py --wallet <WALLET_ADDRESS>
 
 3. Detect risky transactions with:
-
-   python risk_screener.py --blockchain BTC --wallet <WALLET_ADDRESS>
+  python risk_screener.py --blockchain BTC --wallet <WALLET_ADDRESS>
 
    🔗 Resources:
-
 • Research Enrichment Tools
-
 • Guides on FATF’s Guidelines and Sanctions Compliance
 
-
 📫 Contact:
-
 • Email: sukhrobziyovuddinov@gmail.com
-
 • LinkedIn: (https://www.linkedin.com/in/sukhrob-ziyovuddinov)
 
    
