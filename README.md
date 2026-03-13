@@ -32,14 +32,10 @@ The **Crypto Investigator Toolkit** is designed to provide tools, methods, and a
    git clone https://github.com/<sukhrob_ziyovuddinov>/crypto-investigator-toolkit.git
 
 2.  Analyze wallets with:
-   bash
-
     python wallet_analyzer.py --wallet <WALLET_ADDRESS>
 
- 3.   Detect risky transactions with:
-      bash
-
-  python risk_screener.py --blockchain BTC --wallet <WALLET_ADDRESS>
+3   Detect risky transactions with:
+python risk_screener.py --blockchain BTC --wallet <WALLET_ADDRESS>
   
   🔗 Resources:
 • Research Enrichment Tools
