@@ -31,7 +31,7 @@ The **Crypto Investigator Toolkit** is designed to provide tools, methods, and a
    ```bash
    git clone https://github.com/<sukhrob_ziyovuddinov>/crypto-investigator-toolkit.git
 
-   2. Analyze wallets with:
+2. Analyze wallets with:
 
    python wallet_analyzer.py --wallet <WALLET_ADDRESS>
 
