@@ -37,7 +37,7 @@ The **Crypto Investigator Toolkit** is designed to provide tools, methods, and a
    ```bash
    python risk_screener.py --blockchain BTC --wallet <WALLET_ADDRESS>
 
-   🔗 Resources:
+ 🔗 Resources:
 
 • Research Enrichment Tools
 
