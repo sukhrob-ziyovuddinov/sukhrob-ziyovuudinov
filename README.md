@@ -1,57 +1,40 @@
 # Crypto Investigator Toolkit
 
-## Crypto Investigations | AML/CTF | Blockchain Risk Research
-
-Crypto Investigator Toolkit is a professional repository focused on cryptocurrency investigations, AML/CTF analysis, blockchain risk assessment, and compliance-oriented research.
+Public research repository aligned with the broader **ASII** financial crime intelligence thesis.
 
 ## Purpose
 
-This repository is intended to support:
+This repository is focused on:
 
-- cryptocurrency investigation workflows
-- suspicious wallet analysis
-- blockchain risk review
-- sanctions exposure review
-- AML/CTF case documentation
-- compliance research
+- crypto investigations
+- blockchain risk research
+- suspicious wallet review
+- sanctions exposure analysis
+- AML/CFT documentation logic
+- compliance-oriented investigative thinking
 
-## Tools & Methods
+## Why this repository exists
 
-- Python
-- Jupyter Notebooks
-- OSINT research
-- blockchain analytics workflows
-- compliance documentation
+ASII is being built as AI-native financial crime intelligence infrastructure for regulated institutions in the UAE and wider MENA region.
 
-## Professional Use Cases
+This repository supports that direction by showing one domain layer of practical thinking around crypto investigations and structured risk analysis.
 
-This repository can be relevant for:
+## Intended audience
 
+- blockchain investigators
 - AML analysts
 - compliance officers
-- blockchain investigators
 - crypto risk researchers
 - financial crime specialists
 
-## Repository Value
+## Positioning
 
-The value of this project lies in combining investigation logic, compliance-oriented thinking, blockchain risk awareness, and structured analytical documentation.
+This repository is intended for research, documentation, and workflow thinking.
 
-## Disclaimer
+It does not provide legal advice, sanctions determinations, or law-enforcement authority.
 
-This repository is intended for research, compliance support, and educational purposes only.  
-It does not provide legal advice, official sanctions determinations, or law enforcement authority.
+## Public links
 
-## Contact
-
-- Website: [asii.is-a.dev](https://asii.is-a.dev)
-- LinkedIn: [linkedin.com/in/sukhrob-ziyovuddinov](https://www.linkedin.com/in/sukhrob-ziyovuddinov)
-- Email: sukhrobziyovuddinov@gmail.com
-
-## Repository Health Check
-
-As of April 19, 2026, this repository contains documentation only (`README.md`) and no runnable source code, dependency manifests, tests, or executable scripts.
-
-- status: repository is accessible
-- status: markdown file is readable
-- note: there are no automated tests to execute in the current state
+- Website: https://sukhrob-ziyovuddinov.github.io/
+- LinkedIn: https://www.linkedin.com/in/sukhrob-ziyovuddinov/
+- Contact: sukhrobziyovuddinov@gmail.com
