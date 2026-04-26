@@ -1,40 +1,46 @@
-# Crypto Investigator Toolkit
+# ASII Continuity Pilot
 
-Public research repository aligned with the broader **ASII** financial crime intelligence thesis.
+Investor-grade prototype for an AI-native Financial Crime Intelligence continuity workflow built for UAE/MENA regulated institutions.
 
-## Purpose
+## Stack
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- Reusable component primitives inspired by shadcn/ui patterns
+- Mock JSON/TS data (no external paid APIs)
 
-This repository is focused on:
+## Product Flow
+1. **Landing / Pilot Overview**: positioning, workflow steps, and value pillars.
+2. **Case Intelligence Dashboard**: single-case view with risk context and timeline.
+3. **Fragmented Signals Module**: unified intake from multi-source alerts.
+4. **Case Continuity Engine**: linked timeline + explainable continuity reasoning.
+5. **Analyst Review Workspace**: human-in-the-loop validation and decisions.
+6. **Regulator-Ready Report Generator**: preview + mock PDF/DOCX export actions.
+7. **Pilot Success Criteria**: 4–6 week enterprise pilot framing and metrics.
 
-- crypto investigations
-- blockchain risk research
-- suspicious wallet review
-- sanctions exposure analysis
-- AML/CFT documentation logic
-- compliance-oriented investigative thinking
+## Setup
+```bash
+npm install
+npm run dev
+```
+Then open `http://localhost:3000`.
 
-## Why this repository exists
+## Mocked vs Production-Ready
+### Mocked in this prototype
+- Data ingestion pipelines and connectors.
+- Risk-scoring models and entity graph backend.
+- Export services (PDF/DOCX actions are mocked UI triggers).
+- Authentication, role-based access control, and audit persistence.
 
-ASII is being built as AI-native financial crime intelligence infrastructure for regulated institutions in the UAE and wider MENA region.
+### Production-ready foundations
+- Modular page architecture with reusable UI components.
+- Clear workflow narrative for investor and enterprise demos.
+- Structured case data model examples aligned to compliance operations.
+- Explainability-first UI patterns with human-in-the-loop controls.
 
-This repository supports that direction by showing one domain layer of practical thinking around crypto investigations and structured risk analysis.
-
-## Intended audience
-
-- blockchain investigators
-- AML analysts
-- compliance officers
-- crypto risk researchers
-- financial crime specialists
-
-## Positioning
-
-This repository is intended for research, documentation, and workflow thinking.
-
-It does not provide legal advice, sanctions determinations, or law-enforcement authority.
-
-## Public links
-
-- Website: https://sukhrob-ziyovuddinov.github.io/
-- LinkedIn: https://www.linkedin.com/in/sukhrob-ziyovuddinov/
-- Contact: sukhrobziyovuddinov@gmail.com
+## Suggested Next Engineering Steps
+1. Add API routes + database for persistent case records and audit trails.
+2. Implement configurable risk logic with model/version traceability.
+3. Add SSO, RBAC, and tenancy for bank/VASP enterprise deployment.
+4. Build export microservice with signed report packages.
+5. Integrate regional watchlists, Travel Rule providers, and sanctions feeds.
