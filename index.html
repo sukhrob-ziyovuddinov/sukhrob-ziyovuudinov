@@ -3,31 +3,123 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home | Crypto Investigator Toolkit</title>
+  <title>ASII | Intelligence Continuity for Regulated Institutions</title>
+  <meta name="description" content="ASII provides intelligence continuity workflows for regulated institutions managing crypto-related financial crime risk." />
+  <link rel="canonical" href="https://asii.github.io/" />
+  <meta property="og:title" content="ASII | Intelligence Continuity" />
+  <meta property="og:description" content="Early proof workflows for continuity, triage, and regulator-ready reporting." />
+  <meta property="og:url" content="https://asii.github.io/" />
+  <style>
+    :root { --bg:#0b1020; --card:#11172b; --ink:#e8ecf7; --muted:#aab6d3; --line:#26314f; --accent:#5b8cff; --accent-2:#1f3f8f; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Inter, Segoe UI, Arial, sans-serif; background:var(--bg); color:var(--ink); }
+    a { color:inherit; }
+    .wrap { max-width: 1040px; margin: 0 auto; padding: 0 1rem; }
+    header { border-bottom: 1px solid var(--line); background: rgba(11,16,32,.92); position: sticky; top: 0; }
+    nav { display:flex; gap:1rem; flex-wrap:wrap; padding:1rem 0; }
+    nav a { text-decoration:none; color:var(--muted); padding:.35rem .6rem; border-radius:999px; }
+    nav a[aria-current="page"] { color:var(--ink); background:#1a2442; border:1px solid #2b3b66; }
+    main { padding: 2rem 0 3rem; }
+    section { margin: 1.5rem 0; padding: 1rem; border:1px solid var(--line); border-radius: 14px; background:var(--card); }
+    h1,h2,h3 { margin-top: 0; }
+    p { color: var(--muted); }
+    .btn-row { display:flex; flex-wrap:wrap; gap:.6rem; margin-top:1rem; }
+    .btn { display:inline-block; padding:.7rem 1rem; border-radius: 10px; text-decoration:none; border:1px solid #2d4277; background:#162347; }
+    .btn.primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+    .btn:hover { filter: brightness(1.07); }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(230px,1fr)); gap: .8rem; }
+    .card { padding: .9rem; border-radius: 12px; background:#0f1527; border:1px solid var(--line); }
+    pre { margin: .5rem 0 0; overflow:auto; padding: .8rem; border-radius: 10px; background:#0a0f1e; color:#c8d7ff; border:1px solid #1d2b4d; }
+    footer { border-top:1px solid var(--line); margin-top:2rem; }
+  </style>
 </head>
 <body>
   <header>
-    <nav aria-label="Main navigation">
-      <a href="index.html" aria-current="page">Home</a>
-      <a href="services.html">Services</a>
-      <a href="investigations.html">Investigations</a>
-      <a href="resources.html">Resources</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <div class="wrap">
+      <nav aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="services.html">Services</a>
+        <a href="investigations.html">Investigations</a>
+        <a href="resources.html">Resources</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <h1>Crypto Investigator Toolkit</h1>
-    <p>Practical financial crime intelligence for fast, production-safe investigation workflows.</p>
+  <main class="wrap">
+    <section>
+      <h1>ASII — Intelligence Continuity for Regulated Institutions</h1>
+      <p>Founder-led continuity framework connecting fragmented financial-crime signals into structured investigation flow.</p>
+      <div class="btn-row">
+        <a class="btn primary" href="contact.html">Request a Demo</a>
+        <a class="btn" href="services.html">View Continuity Pilot</a>
+        <a class="btn" href="https://www.linkedin.com/in/sukhrob-ziyovuddinov/">LinkedIn</a>
+        <a class="btn" href="https://wa.me/message/XF7UQ67USPUOM1">WhatsApp</a>
+      </div>
+    </section>
 
-    <section aria-labelledby="quick-launch-title">
-      <h2 id="quick-launch-title">Quick launch in 3 steps</h2>
-      <ol>
-        <li>Review service scope and delivery format on the Services page.</li>
-        <li>Use Investigations for structured intake, triage, and escalation flow.</li>
-        <li>Share the Resources page with partners for consistent operating guidance.</li>
-      </ol>
+    <section>
+      <h2>Scenario Proof Pack</h2>
+      <div class="grid">
+        <article class="card"><h3>VASP / Exchange</h3><p>Investigate wallet clusters linked to high-risk counterparties and route decisions to AML escalation logic.</p></article>
+        <article class="card"><h3>Bank with Crypto Exposure</h3><p>Connect transaction anomalies, customer profile changes, and sanctions-adjacent indicators into one continuity thread.</p></article>
+        <article class="card"><h3>Sanctions + Adverse Media</h3><p>Merge watchlist alerts and media risk signals, preserving audit-ready investigator rationale at each step.</p></article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Scenario Mock JSON</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>VASP / Exchange Payload</h3>
+          <pre>{
+  "scenario": "vasp_exchange",
+  "signals": ["wallet_cluster", "counterparty_risk"],
+  "action": "enhanced_due_diligence"
+}</pre>
+        </article>
+        <article class="card">
+          <h3>Bank Exposure Payload</h3>
+          <pre>{
+  "scenario": "bank_crypto_exposure",
+  "signals": ["inflow_spike", "jurisdiction_shift"],
+  "action": "case_continuity_review"
+}</pre>
+        </article>
+        <article class="card">
+          <h3>Sanctions + Media Payload</h3>
+          <pre>{
+  "scenario": "sanctions_adverse_media",
+  "signals": ["watchlist_hit", "media_negative"],
+  "action": "escalate_to_compliance"
+}</pre>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Commercial Entry</h2>
+      <p>Start with a bounded pilot: one workflow lane, one investigator cohort, one reporting baseline, and explicit continuity success criteria.</p>
+      <div class="btn-row">
+        <a class="btn primary" href="mailto:sukhrobziyovuddinov@gmail.com">Email</a>
+        <a class="btn" href="https://www.linkedin.com/in/sukhrob-ziyovuddinov/">LinkedIn</a>
+        <a class="btn" href="https://wa.me/message/XF7UQ67USPUOM1">WhatsApp</a>
+        <a class="btn" href="https://asii.github.io/">Website</a>
+      </div>
     </section>
   </main>
+
+  <footer>
+    <div class="wrap">
+      <section>
+        <h2>Contact</h2>
+        <div class="btn-row">
+          <a class="btn" href="mailto:sukhrobziyovuddinov@gmail.com">Email</a>
+          <a class="btn" href="https://www.linkedin.com/in/sukhrob-ziyovuddinov/">LinkedIn</a>
+          <a class="btn" href="https://wa.me/message/XF7UQ67USPUOM1">WhatsApp</a>
+        </div>
+      </section>
+    </div>
+  </footer>
 </body>
 </html>
