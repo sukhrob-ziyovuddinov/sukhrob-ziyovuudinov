@@ -1,46 +1,22 @@
-# ASII Continuity Pilot
+# ASII Website
 
-Investor-grade prototype for an AI-native Financial Crime Intelligence continuity workflow built for UAE/MENA regulated institutions.
+Premium static presentation site for ASII continuity workflows in regulated financial-crime operations.
 
-## Stack
-- Next.js (App Router)
-- TypeScript
-- Tailwind CSS
-- Reusable component primitives inspired by shadcn/ui patterns
-- Mock JSON/TS data (no external paid APIs)
+[![Website](https://img.shields.io/badge/Website-ASII-0A66FF?style=for-the-badge)](https://asii.github.io/)
+[![Founder](https://img.shields.io/badge/Founder-Sukhrob-1F2937?style=for-the-badge)](https://asii.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sukhrob-ziyovuddinov/)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Message-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/message/XF7UQ67USPUOM1)
+[![Email](https://img.shields.io/badge/Email-Contact-1F2937?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sukhrobziyovuddinov@gmail.com)
 
-## Product Flow
-1. **Landing / Pilot Overview**: positioning, workflow steps, and value pillars.
-2. **Case Intelligence Dashboard**: single-case view with risk context and timeline.
-3. **Fragmented Signals Module**: unified intake from multi-source alerts.
-4. **Case Continuity Engine**: linked timeline + explainable continuity reasoning.
-5. **Analyst Review Workspace**: human-in-the-loop validation and decisions.
-6. **Regulator-Ready Report Generator**: preview + mock PDF/DOCX export actions.
-7. **Pilot Success Criteria**: 4–6 week enterprise pilot framing and metrics.
+## Live Pages
+- `/`
+- `/services`
+- `/investigations`
+- `/resources`
+- `/contact`
 
-## Setup
-```bash
-npm install
-npm run dev
-```
-Then open `http://localhost:3000`.
-
-## Mocked vs Production-Ready
-### Mocked in this prototype
-- Data ingestion pipelines and connectors.
-- Risk-scoring models and entity graph backend.
-- Export services (PDF/DOCX actions are mocked UI triggers).
-- Authentication, role-based access control, and audit persistence.
-
-### Production-ready foundations
-- Modular page architecture with reusable UI components.
-- Clear workflow narrative for investor and enterprise demos.
-- Structured case data model examples aligned to compliance operations.
-- Explainability-first UI patterns with human-in-the-loop controls.
-
-## Suggested Next Engineering Steps
-1. Add API routes + database for persistent case records and audit trails.
-2. Implement configurable risk logic with model/version traceability.
-3. Add SSO, RBAC, and tenancy for bank/VASP enterprise deployment.
-4. Build export microservice with signed report packages.
-5. Integrate regional watchlists, Travel Rule providers, and sanctions feeds.
+## Example / Proof Coverage
+- **Continuity Pilot framing:** service entry and commercial structure on homepage and services page.
+- **3-scenario proof pack:** VASP/exchange, bank crypto exposure, sanctions + adverse media.
+- **Mock JSON examples:** homepage and resources page include scenario payload samples.
+- **Demo contact path:** clear CTA buttons to request a walkthrough.
