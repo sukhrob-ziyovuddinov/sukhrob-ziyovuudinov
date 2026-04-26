@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://example.com/services.html</loc>
+    <loc>https://sukhrob-ziyovuudinov.github.io/sukhrob-ziyovuudinov/index.html</loc>
   </url>
   <url>
-    <loc>https://example.com/insights.html</loc>
+    <loc>https://sukhrob-ziyovuudinov.github.io/sukhrob-ziyovuudinov/services.html</loc>
   </url>
   <url>
-    <loc>https://example.com/contact.html</loc>
+    <loc>https://sukhrob-ziyovuudinov.github.io/sukhrob-ziyovuudinov/investigations.html</loc>
   </url>
   <url>
-    <loc>https://example.com/investors.html</loc>
+    <loc>https://sukhrob-ziyovuudinov.github.io/sukhrob-ziyovuudinov/resources.html</loc>
+  </url>
+  <url>
+    <loc>https://sukhrob-ziyovuudinov.github.io/sukhrob-ziyovuudinov/contact.html</loc>
   </url>
 </urlset>
