@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-bg text-text antialiased;
+  background-image: radial-gradient(circle at 15% 10%, rgba(35,164,255,0.22), transparent 35%), radial-gradient(circle at 85% 0%, rgba(47,111,255,0.2), transparent 25%);
+}
+
+.network-grid {
+  background-image: theme('backgroundImage.grid');
+  background-size: 44px 44px;
+}
