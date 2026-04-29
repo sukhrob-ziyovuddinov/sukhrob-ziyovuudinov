@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://asii.github.io/</loc></url>
-  <url><loc>https://asii.github.io/services</loc></url>
-  <url><loc>https://asii.github.io/investigations</loc></url>
-  <url><loc>https://asii.github.io/resources</loc></url>
-  <url><loc>https://asii.github.io/contact</loc></url>
+  <url><loc>https://asii.github.io/index.html</loc></url>
+  <url><loc>https://asii.github.io/services.html</loc></url>
+  <url><loc>https://asii.github.io/investigations.html</loc></url>
+  <url><loc>https://asii.github.io/resources.html</loc></url>
+  <url><loc>https://asii.github.io/contact.html</loc></url>
 </urlset>
