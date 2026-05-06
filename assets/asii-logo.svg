@@ -1,0 +1,7 @@
+<svg width="640" height="160" viewBox="0 0 640 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ASII logo">
+  <rect width="640" height="160" rx="20" fill="#081A2F"/>
+  <path d="M70 34L112 48V80C112 103 94 124 70 132C46 124 28 103 28 80V48L70 34Z" fill="#0D2C4A" stroke="#25D0FF" stroke-width="4"/>
+  <path d="M51 79L64 92L91 64" stroke="#25D0FF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="150" y="78" fill="#E6F4FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="52" font-weight="700" letter-spacing="1">ASII</text>
+  <text x="152" y="116" fill="#88DFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="500">Intelligence Infrastructure</text>
+</svg>
