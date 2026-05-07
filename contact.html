@@ -18,6 +18,12 @@
     .btn-row { display:flex; flex-wrap:wrap; gap:.65rem; margin-top:.8rem; }
     .btn { text-decoration:none; padding:.65rem .95rem; border-radius:10px; border:1px solid #32569b; color:var(--text); }
     .btn.primary { background:linear-gradient(135deg,var(--accent),var(--accent-2)); color:#031128; border:none; font-weight:600; }
+    a { color:var(--accent); text-decoration-color:rgba(62,203,255,.7); text-underline-offset:.15em; text-decoration-thickness:.08em; }
+    a:visited { color:#7ad7ff; }
+    a:hover, a:focus-visible { color:#b6ecff; text-decoration-color:currentColor; }
+    a:focus-visible { outline:2px solid rgba(62,203,255,.7); outline-offset:2px; border-radius:4px; }
+    nav a, .btn { text-decoration:none; }
+    nav a:visited, .btn:visited { color:inherit; }
     footer { border-top:1px solid var(--line); padding:1.2rem 0 2.2rem; color:var(--muted); }
   </style>
 </head><body><header><div class="wrap"><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="services.html">Services</a><a href="investigations.html">Investigations</a><a href="resources.html">Resources</a><a href="contact.html" aria-current="page">Contact</a></nav></div></header><main class="wrap">
