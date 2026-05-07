@@ -1,12 +1,74 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ASII Sovereign</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ASII | AI-native Financial Crime Intelligence Infrastructure</title>
+  <meta name="description" content="ASII is an AI-native Financial Crime Intelligence Infrastructure platform focused on UAE and MENA. Explore the ASII Continuity Pilot for Travel Rule, crypto risk, and case continuity." />
+  <link rel="canonical" href="https://sukhrob-ziyovuudinov.vercel.app/" />
+  <style>
+    :root { --bg:#060d1f; --panel:#0d162d; --panel-2:#111d39; --line:#223152; --text:#eaf1ff; --muted:#9cb0d2; --accent:#3ecbff; --accent-2:#2f7dff; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Inter, "Segoe UI", Arial, sans-serif; background: radial-gradient(circle at 20% 10%, #142850 0%, #060d1f 45%, #040914 100%); color:var(--text); line-height:1.6; }
+    body::before { content:""; position:fixed; inset:0; pointer-events:none; background-image: linear-gradient(rgba(62,203,255,.08) 1px, transparent 1px), linear-gradient(90deg, rgba(47,125,255,.06) 1px, transparent 1px); background-size:48px 48px; opacity:.22; }
+    .wrap { max-width:1120px; margin:0 auto; padding:0 1rem; position:relative; z-index:1; }
+    header { position:sticky; top:0; backdrop-filter: blur(10px); background:rgba(6,13,31,.9); border-bottom:1px solid var(--line); }
+    nav { display:flex; flex-wrap:wrap; gap:.8rem; padding:1rem 0; }
+    nav a { color:var(--muted); text-decoration:none; padding:.35rem .7rem; border-radius:999px; border:1px solid transparent; }
+    nav a[aria-current="page"] { color:var(--text); border-color:#2b4b86; background:#122140; }
+    main { padding:2.2rem 0 3rem; }
+    section { margin:1rem 0 1.2rem; padding:1.15rem; border-radius:14px; border:1px solid var(--line); background:linear-gradient(180deg,var(--panel),var(--panel-2)); }
+    h1,h2,h3 { margin:.2rem 0 .5rem; line-height:1.25; }
+    h1 { font-size:clamp(2rem,5vw,3rem); }
+    p, li { color:var(--muted); margin:.35rem 0 .6rem; }
+    .grid { display:grid; gap:.8rem; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); }
+    .card { border:1px solid var(--line); border-radius:12px; padding:.85rem; background:#0b1530; }
+    .steps { display:grid; gap:.65rem; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); }
+    .step { border:1px solid #2a4271; background:#0a1430; border-radius:11px; padding:.7rem; }
+    .btn-row { display:flex; flex-wrap:wrap; gap:.65rem; margin-top:.8rem; }
+    .btn { text-decoration:none; padding:.65rem .95rem; border-radius:10px; border:1px solid #32569b; color:var(--text); }
+    .btn.primary { background:linear-gradient(135deg,var(--accent),var(--accent-2)); color:#031128; border:none; font-weight:600; }
+    footer { border-top:1px solid var(--line); padding:1.2rem 0 2.2rem; color:var(--muted); }
+  </style>
+</head>
+<body>
+<header><div class="wrap"><nav aria-label="Main navigation"><a href="index.html" aria-current="page">Home</a><a href="services.html">Services</a><a href="investigations.html">Investigations</a><a href="resources.html">Resources</a><a href="contact.html">Contact</a></nav></div></header>
+<main class="wrap">
+  <section>
+    <h1>ASII</h1>
+    <h2>AI-native Financial Crime Intelligence Infrastructure for UAE &amp; MENA</h2>
+    <p>ASII is building institutional infrastructure for financial crime intelligence with a practical entry point: <strong>ASII Continuity Pilot</strong> for Travel Rule + Crypto Risk + Case Continuity.</p>
+    <p>Designed as an <strong>overlay, not rip-and-replace</strong>: human-reviewed workflows, evidence-supported outputs, MLRO-reviewable rationale, and reporting preparation support.</p>
+    <div class="btn-row"><a class="btn primary" href="contact.html">Start Pilot Conversation</a><a class="btn" href="services.html">View Pilot Scope</a></div>
+  </section>
+  <section>
+    <h2>Problem: fragmented controls break case continuity.</h2>
+    <div class="grid">
+      <article class="card"><h3>Signal fragmentation</h3><p>Travel Rule checks, wallet risk signals, and internal monitoring live in disconnected systems.</p></article>
+      <article class="card"><h3>Review inefficiency</h3><p>Analysts repeatedly reconstruct context across tickets, cases, and handoffs.</p></article>
+      <article class="card"><h3>Evidence gaps</h3><p>Escalations lack consistent, evidence-supported narratives for MLRO review flow.</p></article>
+      <article class="card"><h3>Reporting friction</h3><p>Preparation for internal and external reporting remains manual and slow.</p></article>
+    </div>
+  </section>
+  <section>
+    <h2>ASII Continuity Pilot</h2>
+    <p><strong>Core wedge:</strong> Travel Rule + Crypto Risk + Case Continuity in one accountable workflow.</p>
+    <div class="grid">
+      <article class="card"><p><strong>Institutional approach:</strong> human-reviewed decisions and analyst accountability.</p></article>
+      <article class="card"><p><strong>Output model:</strong> evidence-supported artifacts that are MLRO-reviewable.</p></article>
+      <article class="card"><p><strong>Change model:</strong> overlay integration with current stack, not rip-and-replace.</p></article>
+    </div>
+  </section>
+  <section>
+    <h2>Workflow</h2>
+    <div class="steps">
+      <div class="step"><strong>1. Ingest signals</strong><p>Travel Rule, transaction, and wallet intelligence signals aligned.</p></div>
+      <div class="step"><strong>2. Build continuity</strong><p>Entity and event linking produce a traceable case thread.</p></div>
+      <div class="step"><strong>3. Analyst workflow</strong><p>Human analysts review, enrich, and disposition with full context.</p></div>
+      <div class="step"><strong>4. MLRO review flow</strong><p>Evidence-supported package for escalation and reporting preparation.</p></div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap"><strong>ASII</strong><br/>Financial Crime Intelligence Infrastructure<br/>UAE &amp; MENA<br/>© 2026 ASII. All rights reserved.</div></footer>
+</body>
 </html>
