@@ -1,120 +1,86 @@
 # ASII Website
 
-Official public website repository for **ASII** — an AI-native Financial Crime Intelligence Infrastructure platform focused on the UAE first and wider MENA second.
+Official public website repository for **ASII** — an AI-native Financial Crime Intelligence Infrastructure platform focused on **UAE first** and **MENA second**.
 
-Live website: https://sukhrob-ziyovuudinov.vercel.app  
-Public repository: https://github.com/sukhrob-ziyovuddinov/asii-website  
-LinkedIn: https://www.linkedin.com/company/asii-intelligence/
+## Repository Purpose
 
----
+This repository contains ASII’s public-facing website and static presentation pages used for institutional communication, pilot framing, and market-facing positioning.
 
-## Purpose
+It is maintained as the source of truth for ASII’s external website narrative, with language designed to remain conservative, reviewable, and suitable for regulated stakeholder audiences.
 
-This repository contains the public ASII website and supporting static pages used to communicate ASII’s positioning, product direction, and pilot readiness.
+## Live Website
 
-ASII is positioned as a trusted intelligence layer for regulated institutions working across financial crime, crypto risk, Travel Rule workflows, investigations, sanctions, adverse media, and reporting preparation.
+- **Current live site:** https://sukhrob-ziyovuudinov.vercel.app
 
-The website is designed to support early institutional conversations, accelerator applications, pilot discovery, and founder-led market validation.
-
----
+> Note: The live Vercel URL above remains unchanged unless a working ASII-branded domain is configured and deployed.
 
 ## ASII Positioning
 
-ASII is an **AI-native Financial Crime Intelligence Infrastructure** platform for regulated institutions operating across UAE & MENA.
+ASII is an **AI-native Financial Crime Intelligence Infrastructure** platform for regulated institutions operating across UAE and wider MENA.
 
-ASII helps financial crime teams move from fragmented signals into structured, explainable, MLRO-reviewable case continuity.
-
-The platform is designed as an overlay layer, not a rip-and-replace replacement for existing compliance systems.
-
----
+ASII is positioned as an intelligence and continuity overlay that helps teams connect fragmented signals into structured, human-reviewed, evidence-supported, and MLRO-reviewable workflows.
 
 ## Core Commercial Wedge
 
 **ASII Continuity Pilot**
 
-Travel Rule + Crypto Risk + Case Continuity.
+**Travel Rule + Crypto Risk + Case Continuity**
 
-The pilot focuses on one practical workflow:
+The pilot is designed to support practical workflow continuity:
 
-1. Signal intake  
-2. Crypto-risk context  
-3. Case continuity  
-4. Analyst review  
-5. MLRO escalation  
-6. Reporting preparation  
+1. Signal intake
+2. Crypto risk context enrichment
+3. Case continuity tracking
+4. Analyst review
+5. MLRO escalation readiness
+6. Reporting preparation
 
-The goal is to help teams preserve context, evidence, rationale, and review trails across fragmented financial crime workflows.
+ASII is an **overlay, not rip-and-replace** architecture.
 
----
+## Website Pages / Sections
 
-## Website Sections
+Current public pages in this repository:
 
-The public website includes:
+- `index.html` (Home)
+- `services.html`
+- `investigations.html`
+- `resources.html`
+- `contact.html`
 
-- Home
-- Services
-- Investigations
-- Resources
-- Contact
-
-The website is intentionally concise, institutional, and focused on the ASII Continuity Pilot as the initial commercial wedge.
-
----
+Supporting operational files include `sitemap.xml`, `robots.txt`, and deployment configuration artifacts.
 
 ## Operating Principles
 
-ASII materials use careful, governance-friendly language:
+All external website messaging should remain:
 
-- Overlay, not rip-and-replace
-- Human-reviewed decisioning
-- Evidence-supported operating trail
-- MLRO-reviewable rationale
-- Reporting preparation, not autonomous reporting
-- Analyst and MLRO accountability preserved
+- Human-reviewed
+- Evidence-supported
+- MLRO-reviewable
+- Oriented to reporting preparation
+- Overlay-based (not rip-and-replace)
+- Appropriate for institutional and regulator-adjacent scrutiny
 
-ASII does not claim to replace compliance teams, MLROs, Travel Rule providers, blockchain analytics platforms, screening systems, case management tools, or regulated decision-makers.
+## Deployment Note
 
----
+This repository is publicly visible and intended to represent the official ASII website codebase.
+
+Deployment is currently handled through Vercel. Keep all externally visible content presentation-ready, governance-safe, and consistent with ASII’s UAE-first / MENA-focused operating posture.
+
+## Public Links
+
+- Website: https://sukhrob-ziyovuudinov.vercel.app
+- Repository: https://github.com/sukhrob-ziyovuddinov/asii-website
+- LinkedIn: https://www.linkedin.com/company/asii-intelligence/
 
 ## Compliance Language Guardrails
 
-This repository avoids claims of:
+This repository’s public language must avoid:
 
-- Regulatory approval
-- Customer traction
-- Partnerships
-- Revenue
-- Licensing
-- Autonomous compliance decisions
-- Legal advice
-- Fully automated AML decisioning
+- Regulatory approval claims
+- Customer claims
+- Partnership claims
+- Revenue claims
+- Licensing outcome claims
+- Autonomous compliance decision claims
 
-All ASII external-facing materials should remain careful, evidence-supported, and suitable for institutional review.
-
----
-
-## Deployment
-
-The website is currently deployed on Vercel.
-
-Live website:
-
-https://sukhrob-ziyovuudinov.vercel.app
-
-The current live URL remains active until a cleaner ASII-branded Vercel domain or custom domain is configured.
-
----
-
-## Repository Status
-
-This repository is public and intended to represent the official ASII website codebase.
-
-It should remain clean, professional, and aligned with ASII’s UAE-first, MENA-focused positioning.
-
----
-
-## ASII
-
-AI-native Financial Crime Intelligence Infrastructure.
-
-Focused on Travel Rule, Crypto Risk, Case Continuity, investigations, and MLRO-reviewable reporting preparation.
+ASII materials must not imply legal advice or fully autonomous AML/compliance decisioning. Public claims should remain conservative, review-friendly, and evidentially defensible.
